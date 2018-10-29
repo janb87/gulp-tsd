@@ -12,3 +12,8 @@ patch:
         patched: '2018-06-25T02:00:11.872Z'
     - tsd > definition-header > joi > topo > hoek:
         patched: '2018-06-25T02:00:11.872Z'
+  'npm:minimatch:20160620':
+    - tsd > glob > minimatch:
+        patched: '2018-10-29T02:04:46.842Z'
+    - tsd > minimatch:
+        patched: '2018-10-29T02:04:46.842Z'
