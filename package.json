@@ -7,7 +7,8 @@
   "scripts": {
     "test": "./node_modules/.bin/gulp --gulpfile ./test/gulpfile.js",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "gulp",
@@ -17,7 +18,7 @@
     "gulp-util": "^3.0.1",
     "through2": "^0.6.3",
     "tsd": "~0.6.0-beta.4",
-    "snyk": "^1.83.0"
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "gulp": "~3.6.2",
